@@ -163,7 +163,7 @@
     .collapsible{
         width: 100%;
         border:0px;
-        border-top: 3px solid #2c2b30;
+        border-top: 3px solid white;
         border: radius 0px;
     }
 }
@@ -178,7 +178,7 @@
     .collapsible{
         width: 100%;
         border:0px;
-        border-top: 3px solid #2c2b30;
+        border-top: 3px solid white;
         border: radius 0px;
     }
 }
