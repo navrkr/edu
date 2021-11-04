@@ -149,7 +149,7 @@
 }
  
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:450px) {
     .full-chat-block{
         width:100%;
         border-radius:0px;
@@ -168,7 +168,7 @@
     }
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:426px) {
     .chat-bot-collapsible{
         position: fixed;
         right:5px;
