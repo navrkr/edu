@@ -64,8 +64,7 @@ header {
 }
 
 .background {
-  background: 
-    url("http://img.talkandroid.com/uploads/2013/03/htc-sense-5-wallpaper-3.jpg")
+  
     repeat;
   background-size: 100% auto;
   position: fixed;
