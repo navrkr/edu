@@ -46,7 +46,8 @@ firstBotMessage();
 
 // Retrieves the response
 function getHardResponse(userText) {
-    let botResponse = getBotResponse(userText);
+    let text = userText.toLowerCase().replace(/[^\w\s\d]/gi, "");
+    let botResponse = getBotResponse(text);
     let botHtml = '<p class="botText"><span>' + botResponse + '</span></p>';
     $("#chatbox").append(botHtml);
 
