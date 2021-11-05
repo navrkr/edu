@@ -1,231 +1,171 @@
 const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
+        question: " What is the 16-bit compiler allowable range for integer constants?",
+        optionA: "-3.4e38 to 3.4e38",
+        optionB: "-32767 to 32768",
+        optionC: "-32668 to 32667",
+        optionD: "-32768 to 32767",
         correctOption: "optionD"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
+        question: "What is required in each C program?",
+        optionA: "The program does not require any function.",
+        optionB: "The program must have at least one function.",
+        optionC: "Input data",
+        optionD: "Output data",
         correctOption: "optionB"
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        question: "Which of the following comment is correct when a macro definition includes arguments?",
+        optionA: "There should be only one blank between the macro name and the opening parenthesis.",
+        optionB: "All the comments are correct.",
+        optionC: "There should be at least one blank between the macro name and the opening parenthesis.",
+        optionD: "The opening parenthesis should immediately follow the macro name.",
         correctOption: "optionD"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
+        question: "What is a lint?",
+        optionA: "C compiler",
+        optionB: "Interactive debugger",
+        optionC: "Analyzing tool",
+        optionD: "C interpreter",
         correctOption: "optionC"
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
+        question: 'What is the output of this statement printf("%d", (a++))?',
+        optionA: "Garbage",
+        optionB: "Error message",
+        optionC: "The value of (a + 1)",
+        optionD: "The current value of a",
         correctOption: "optionD"
     },
 
     {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
+        question: "What does this declaration mean? int x : 4;  ",
+        optionA: "X is a four-bit integer.",
+        optionB: "X is a four-digit integer.",
+        optionC: "X cannot be greater than a four-digit integer.",
+        optionD: "None of the these",
         correctOption: "optionA"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
+        question: "Why is a macro used in place of a function?",
+        optionA: "It reduces execution time.",
+        optionB: "It reduces code size.",
+        optionC: "It increases code size.",
+        optionD: "It increases execution time.",
         correctOption: "optionC"
     },
 
     {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
+        question: " In the C language, the constant is defined _______.",
+        optionA: "Anywhere, but starting on a new line.",
+        optionB: "Before main",
+        optionC: "After main",
+        optionD: "None of the these.",
         correctOption: "optionA"
     },
 
     {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
+        question: "How many times will the following loop execute? for(j = 1; j <= 10; j = j-1)  ",
+        optionA: "Forever",
+        optionB: "never",
+        optionC: "0",
+        optionD: "10",
         correctOption: "optionD"
     },
 
     {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
+        question: "A pointer is a memory address. Suppose the pointer variable has p address 1000, and that p is declared to have type int*, and an int is 4 bytes long. What address is represented by expression p + 2?",
+        optionA: "1002",
+        optionB: "1004",
+        optionC: "1006",
+        optionD: "1008",
         correctOption: "optionD"
     },
 
     {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
+        question: "Which one of the following is a loop construct that will always be executed once?",
+        optionA: "for",
+        optionB: "while",
+        optionC: "do while",
+        optionD: "switch",
         correctOption: "optionC"
     },
 
     {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
+        question: "Which of the following best describes the ordering of destructor calls for stack-resident objects in a routine?",
+        optionA: "The first object destroyed is the last object destroyed; last created is first destroyed.",
+        optionB: "Objects are destroyed in the order they appear in memory, the object with the lowest memory address is destroyed first.",
+        optionC: "The first object created is the first object destroyed; last created is last destroyed.",
+        optionD: "The order is undefined and may vary from compiler to compiler.",
         correctOption: "optionA"
     },
 
 
     {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
+        question: "How many characters can a string hold when declared as follows? char name[20]:  ",
+        optionA: "18",
+        optionB: "20",
+        optionC: "19",
+        optionD: "none",
         correctOption: "optionB"
     },
 
     {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
+        question: "Directives are translated by the",
+        optionA: "Compiler",
+        optionB: "Linker",
+        optionC: "Editor",
+        optionD: "Pre-processor",
         correctOption: "optionD"
     },
 
     {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
+        question: "How many bytes does "int = D" use?",
+        optionA: "2 or 4",
+        optionB: "0",
+        optionC: "1",
+        optionD: "10",
         correctOption: "optionA"
     },
 
     {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
+        question: "What feature makes C++ so powerful?",
+        optionA: "Easy implementation",
+        optionB: "Reusing the old code",
+        optionC: "Easy memory management",
+        optionD: "All of the above",
         correctOption: "optionD"
     },
 
     {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
+        question: "Which of the following will copy the null-terminated string that is in array src into array dest?",
+        optionA: "strcpy(dest, src);",
+        optionB: "dest = src;",
+        optionC: "dest == src;",
+        optionD: "strcpy( src,dest);",
         correctOption: "optionA"
     },
 
     {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
+        question: "Each instance of a class has a different set of",
+        optionA: "Class interfaces",
+        optionB: "Methods",
+        optionC: "Return types",
+        optionD: "Attribute values",
         correctOption: "optionD"
     },
 
-    {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
-        correctOption: "optionC"
-    }
+  
 
 ]
+
 
 
 let shuffledQuestions = [] //empty array to hold shuffled selected questions
