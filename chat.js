@@ -143,13 +143,8 @@ const name = [
   const byer = ["Bye", "Goodbye", "See you later"];
   const eatr = ["Sushi", "Pizza"];
 
-  const alternative = [
-    "Same",
-    "Go on...",
-    "Bro...",
-    "Try again",
-    "I'm listening...",
-    "I don't understand :/"
+ const alternative = [
+    "Contact Us: 9xxxx xxxx1"
   ];
   
 function getBotResponse(input) {
