@@ -260,7 +260,7 @@ input[type=radio]:checked ~ .option {
      }
 
     .game-options-container span{
-        width: 50%;
+        width: 90%;
     }
     .modal-content-container{
         width: 90%;
