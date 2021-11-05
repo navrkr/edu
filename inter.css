@@ -1,0 +1,69 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 10%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  div.slide-bar{
+    color: white;
+    font-family: "Lato";
+    font-weight: light;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10%;
+    overflow: hidden;
+    background: linear-gradient(150deg, #e6d3f9 0%, #e6d3f9 50%, #cea0f1 50%, #cea0f1 100%);
+  }
+
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-color: skyblue;
+  }
+  h1{
+    color:white;
+    text-align:center;
+    padding:10px;
+  }
+  .gallery{
+    float:left;
+    width:24%;
+    margin:5px;
+    border:2px solid pink;
+  }
+  img{
+    width:100%;
+    height:auto;
+  }
+  .galler:hover{
+    border:20px solid black;
+  }
+  .des{
+    padding:15px;
+    text-align:center;
+    background-color:white;
+    float: right;
+  }
+
+ 
