@@ -129,7 +129,7 @@
     display: block;
     padding: 40px 0;
     text-align: center;
-    background: #222;
+    background-image: linear-gradient(to right top, #cddbf0, #bbd9f7, #a3d7fc, #85d6ff, #5cd6ff);
     transition: all 0.3s ease;
   }
   .navbar.show .menu-list{
