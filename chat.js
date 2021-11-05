@@ -117,6 +117,7 @@ const name = [
     "what is your name",
     "what call yourself"
   ];
+  const courses=["courses offered?"];
   const love =  ["i love you"];
   const good = ["happy", "good", "fun", "wonderful", "fantastic", "cool"];
   const bad = ["bad", "bored", "tired"];
@@ -144,7 +145,7 @@ const name = [
   const eatr = ["Sushi", "Pizza"];
 
  const alternative = [
-    "Contact Us: 9xxxx xxxx1"
+    "Contact Us: 9xxxx xxxx1 or visit aknu.edu.in"
   ];
   
 function getBotResponse(input) {
@@ -165,6 +166,8 @@ function getBotResponse(input) {
   return namer[Math.floor(Math.random() * namer.length)];
 } else if (how.includes(input)) {
   return howr[Math.floor(Math.random() * howr.length)];
+}else if(how.includes(input)){
+    return"B.tech,B.A,B.Com,B.Voc,B.Sc Subjects,and many more";
 } else if (love.includes(input)) {
   return lover[Math.floor(Math.random() * lover.length)];
 } else if (good.includes(input)) {
