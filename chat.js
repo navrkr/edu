@@ -59,7 +59,7 @@ function getResponse() {
     let userText = $("#textInput").val();
 
     if (userText == "") {
-        userText = "I love Code Palace!";
+        userText = "About the university";
     }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
