@@ -127,7 +127,7 @@ const questions = [
     },
 
     {
-        question: "How many bytes does "int = D" use?",
+        question: "How many bytes does 'int = D' use?",
         optionA: "2 or 4",
         optionB: "0",
         optionC: "1",
